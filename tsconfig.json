@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "strict": true,
+    "lib": ["ESNext"],
+    "moduleResolution": "Node",
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "types": [
+      "node",
+      "@types/jest"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["server/*"],
+      "~/*": ["./*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
